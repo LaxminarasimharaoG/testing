@@ -1,0 +1,145 @@
+
+		hr {
+		display: block;
+		height: 1px;
+		border: 0; 
+		border-top: 3px solid #123455;
+		margin: 1em 0;
+		 
+		
+		}
+
+		.submit
+		{
+			float:left;
+		}
+
+		/* Navbar */
+		.navbar-header 
+		{
+		font: normal bold 15px/20px Georgia, serif;
+		}
+		.navbar-nav
+		{
+		font: normal bold 15px/20px Georgia, serif;
+		}
+		.main 
+                {
+                    font-family:Georgia, serif;
+                    font-size:12px; 
+                }
+		h1
+		{
+			font-family:Baskerville Old Face;
+			color:black;
+		}
+                h3
+		{
+			font-family:Baskerville Old Face;
+			color:black;
+		}
+		h4
+		{
+			font: normal bold 30px/30px Baskerville Old Face;
+			color:black;
+		}
+                h5
+		{
+			font: normal bold 30px/2px Baskerville Old Face;
+			color:black;
+		}
+                h6
+		{
+			font: normal bold 18px/2px Baskerville Old Face;
+			color:black;
+		}
+                
+                .left 
+                {
+                    float: left;
+                }
+
+                .right 
+                {
+                    float:right;
+                    text-align: right;
+                }
+                
+		label
+		{
+		font-family:Times New Roman;
+		
+		}
+		.navbar-default
+		{
+                    background-color: white;
+                }
+		
+                fieldset {
+		border:1px solid #ccc;
+		padding:10px;
+		}
+		fieldset > div {
+		margin:10px 0;
+		}
+		fieldset > legend + div {
+		margin-top:0;
+		}
+		fieldset > div:last-child {
+		margin-bottom:0;
+		}
+		label {
+		display:inline-block;
+		width:170px;
+		}
+		input {
+		width:200px;
+		}
+		input[type="submit"] {
+		width:auto;
+		}
+		div.submit {
+		width:250px;margin:0 auto;
+		}
+		
+
+		.help {
+		display:none;
+		font-size:100%;
+		}
+		input:focus + .help {
+		display:inline-block;
+		border:1px solid #765;
+		}
+		form { 
+		margin: 0 auto; 
+		width:1000px;
+		}
+		
+		/* Body Content Left */
+		
+		div.rowalign
+		{
+                    margin-left:-140px;
+		}
+		
+		/* Button center */
+		
+		.wrapper {
+		text-align: center;
+		}
+
+		.button {
+			position: absolute;
+			top: 50%;
+		}
+                
+                .btnStyle {
+		  font-weight: bold;
+		  margin-left: -1px;
+		}
+		.btnStyle1 {
+		  font-weight: bold;
+		  margin-left: 5px;
+		}
+                     

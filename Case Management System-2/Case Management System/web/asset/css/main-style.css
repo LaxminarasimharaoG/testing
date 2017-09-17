@@ -1,0 +1,61 @@
+
+		.submit
+		{
+			float:left;
+		}
+
+		h1, h3
+		{
+			font-family:Baskerville Old Face;
+			color:#234590;
+		}
+		label
+		{
+		font-family:Times New Roman;
+		
+		}
+		
+			fieldset {
+		border:1px solid #ccc;
+		padding:10px;
+		}
+		fieldset > div {
+		margin:10px 0;
+		}
+		fieldset > legend + div {
+		margin-top:0;
+		}
+		fieldset > div:last-child {
+		margin-bottom:0;
+		}
+		label {
+		display:inline-block;
+		width:170px;
+		}
+		input {
+		width:200px;
+		}
+		input[type="submit"] {
+		width:auto;
+		}
+		div.submit {
+		width:250px;margin:0 auto;
+		}
+		.row
+		{
+		margin-left:50px;
+		}
+
+
+		.help {
+		display:none;
+		font-size:100%;
+		}
+		input:focus + .help {
+		display:inline-block;
+		border:1px solid #765;
+		}
+		form { 
+		margin: 0 auto; 
+		width:1000px;
+		}
